@@ -39,14 +39,14 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.company</groupId>
+                <groupId>org.codehaus.mojo</groupId>
                 <artifactId>appassembler-maven-plugin</artifactId>
                 <version>1.1.1</version>
                 <configuration>
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.severenity.java.Main</mainClass>
+                            <mainClass>com.company.java.Main</mainClass>
                             <name>worker</name>
                         </program>
                     </programs>
