@@ -46,7 +46,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.company.java.Main</mainClass>
+                            <mainClass>com.company.Main</mainClass>
                             <name>worker</name>
                         </program>
                     </programs>
